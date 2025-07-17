@@ -1,0 +1,45 @@
+/* Hero Section Background */
+#hero {
+  background-image: url('/static/assets/hero-bg.jpg'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Scrollspy active link */
+.nav-link.active {
+  color: #ffc107 !important;
+  font-weight: bold;
+}
+
+/* Predict form card shadow */
+form.card {
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+/* Contact section */
+#contact input, #contact textarea {
+  border-radius: 0.5rem;
+}
+
+.custom-classify-btn {
+  background-color: #ffc107;     /* Yellow */
+  color: #000;                   /* Black text */
+  font-weight: 600;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  transition: 0.3s ease;
+}
+
+.custom-classify-btn:hover {
+  background-color: #e0a800;     /* Slightly darker yellow */
+  color: #000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.result-yellow {
+  color: #ffc107;
+  font-weight: bold;
+}
