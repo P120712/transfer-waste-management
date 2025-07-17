@@ -1,0 +1,19 @@
+Transforming Waste Management with Transfer Learning
+
+🎯 Objective:
+Use Transfer Learning to classify waste types to enable smart, efficient segregation systems.
+
+🔍 Process:
+1. Dataset: TrashNet (Images of various waste types)
+2. Preprocessing & Augmentation
+3. Model: MobileNetV2 pretrained on ImageNet
+4. Added dense layers and softmax output
+5. Evaluated with accuracy and loss plots
+
+📈 Result:
+Achieved 90%+ accuracy
+Real-time classification possible in future
+
+🔮 Future Scope:
+- Deploy on smart bins
+- Expand to hazardous/chemical waste

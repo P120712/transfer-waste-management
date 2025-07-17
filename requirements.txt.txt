@@ -1,0 +1,7 @@
+`txt
+tensorflow
+numpy
+opencv-python
+matplotlib
+pandas
+seaborn
